@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccdeff;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+}
+.nav-bar {
+    text-align: center;
+    padding: 10px;
+    background-color: #bdd4ff;
+    font-size: 1.2em;
+    color: black;
+}
+.nav-bar:hover{
+    color:white;
+    background-color: #142c58;
+    transition: 0.55s;
+}
+p{
+    grid-column-start: 1;
+    margin: 30px 50px 10px 50px;
+}
+.projectupdate{
+    display:grid;
+    grid-template-columns: 50% auto;
+}
+#contentbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.content {
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    border: 1.5px black solid;
+    margin: 10px 10px 10px 10px;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
